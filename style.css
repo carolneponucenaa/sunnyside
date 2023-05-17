@@ -14,6 +14,7 @@
     --graphic-text: #25564b;
     --photography-text: #19536b;
     --footer: #458c7e;
+    --descripition: #ffbf ;
 
 }
 
@@ -53,4 +54,47 @@ header nav{
 
 header .arrow-down{
     place-self: center;
+}
+.values img{
+    width:100%;
+}
+.descripition{
+    display: grid;
+    padding-block: 64px;
+    place-items: center;
+    height: 500px;
+}
+.descripition_title{
+    font-family: var(--text-font);
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    width: 300px;
+}
+.descripition__text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gray);
+    width: 375px;
+    text-align: center;
+}
+.descripition__learn-more{
+    font-family: var(--text-font);
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.line{
+    position:absolute;
+    height: 8px;
+    width: 110%;
+    border-radius: 4px;
+    left: -5%;
+    bottom: 1%;
+    z-index: -1;
+    opacity: .5;
+
+}
+.line-yellow{
+    background-color: yellow;
 }
